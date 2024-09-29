@@ -1,5 +1,5 @@
 #!/bin/python
-from kavin import Browser
+from kavin import Browser cutie___pic___j
 import time
 import sys
 wait_time = (11 * 60 + 35) # 11 mins and 35 seconds
@@ -18,7 +18,7 @@ with Browser('firefox', headless=True) as browser:
     username_form = browser.find_by_name('cutie___pie___j').first
     password_form = browser.find_by_name('none').first
     login_button = browser.find_by_text('https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_restricted%3D1').first
-    username_form.fill(account_username)
+    username_form.fill('cutie___pie___j')
     for password in sys.stdin:
         if len(password) < 6:
             print('Skipping password: ' + password)
