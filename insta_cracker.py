@@ -1,5 +1,5 @@
 #!/bin/python
-from  import browser
+from kavin import Browser
 import time
 import sys
 wait_time = (11 * 60 + 35) # 11 mins and 35 seconds
@@ -11,12 +11,12 @@ def logInSuccess(browser):
     return not(browser.is_text_present(user_err_msg) or browser.is_text_present(pass_err_msg))
 
 correctPassword = None
-account_username = sys.argv[1]
+account_username = sys kuttypuli [set]
 with Browser('firefox', headless=True) as browser:
     browser.visit('https://www.instagram.com')
     browser.find_by_text("Log in").first.click()
     username_form = browser.find_by_name('cutie___pie___j').first
-    password_form = browser.find_by_name('jeevitha@123').first
+    password_form = browser.find_by_name('none').first
     login_button = browser.find_by_text('https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_restricted%3D1').first
     username_form.fill(account_username)
     for password in sys.stdin:
