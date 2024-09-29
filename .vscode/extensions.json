@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "ftonato.password-generator"
+        "ftonato.password-generator",
+        "ms-python.vscode-pylance"
     ]
 }
