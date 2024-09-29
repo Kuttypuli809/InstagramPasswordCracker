@@ -1,5 +1,5 @@
 #!/bin/python
-from cutie___pic___j import browser
+from  import browser
 import time
 import sys
 wait_time = (11 * 60 + 35) # 11 mins and 35 seconds
@@ -12,7 +12,7 @@ def logInSuccess(browser):
 
 correctPassword = None
 account_username = sys.argv[1]
-with Browser('firefox', headless=True) as browser: chrome
+with Browser('firefox', headless=True) as browser:
     browser.visit('https://www.instagram.com')
     browser.find_by_text("Log in").first.click()
     username_form = browser.find_by_name('cutie___pie___j').first
