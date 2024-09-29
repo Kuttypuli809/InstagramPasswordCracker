@@ -20,6 +20,6 @@ The password list file provided must seperate passwords with a newline.
 
 Usage:
 
-./insta_cracker []https://www.instagram.com/cutie___pie___j < [              - name: Code sign a file requiring password/sha1
+./insta_cracker [[cutie___pie___j ] < [              - name: Code sign a file requiring password/sha1
                 uses: MichaelVoelkel/code-sign-action@v1
             
